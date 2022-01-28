@@ -1,4 +1,9 @@
 export interface IWebScrapingProvider {
-    getTechnologyNews: () => Promise<object>;
-    getAllTechnologyNews: (requestNumber?: number) => Promise<object>;
+    getTechnologyNews: (requestNumber?: number) => Promise<object>;
+}
+
+
+export interface ITechnologyNewsResponse {
+    title: string;
+    paragraph: string;
 }

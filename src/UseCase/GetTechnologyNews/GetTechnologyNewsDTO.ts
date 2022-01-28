@@ -1,3 +1,3 @@
-export interface IGetAllGameNewsDTO {
-    requestsNumber: number;
+export interface IGetTechnologyDTO {
+    requestsNumber?: number;
 }
