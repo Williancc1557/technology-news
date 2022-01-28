@@ -5,7 +5,7 @@ import { getTechnologyNewsController } from "../UseCase/GetTechnologyNews";
 
 export const router = Router();
 
-router.get("/", async (req: Request, res: Response) => {
+router.get("/", async (req: Request, res: Response): Promise<Response> => {
     pinoConfig.info("The router / was executed");
-    await getTechnologyNewsController.handle(req, res);
+    return getTechnologyNewsController.handle(req, res);
 });
