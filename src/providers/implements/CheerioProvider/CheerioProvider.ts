@@ -3,7 +3,7 @@ import type { ITechnologyNewsResponse, IWebScrapingProvider } from "../../IWebSc
 import axios from "axios";
 import { pinoConfig } from "../../../log/logger";
 
-const requestNumberDefault = 10;
+const requestNumberDefault = 1;
 
 export class CheerioProvider implements IWebScrapingProvider {
 
