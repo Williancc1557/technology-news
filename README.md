@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/Williancc1557/game-news/blob/master/img/apigamenews.png" width="100%" alt="hi">
+<img src="https://github.com/Williancc1557/technology-news/blob/chore/documentation-readme/img/img-documentation.png" width="100%" alt="hi">
 </div>
 
 # Para que serve?
