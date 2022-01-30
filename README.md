@@ -34,22 +34,3 @@ Você pode **selecionar a quantidade** enviando um header com as seguintes crede
 }
 ```
 
-## Exemplo de retorno `/all`
-
-```json
-{
-[{
-  "title": "Here is News Title",
-  "paragraph": "Here is paragraph"
-},
-{
-  "title": "Here is News Title",
-  "paragraph": "Here is paragraph"
-},
-{
-  "title": "Here is News Title",
-  "paragraph": "Here is paragraph"
-}, 
-. . .
-]}
-```
