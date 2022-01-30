@@ -17,6 +17,7 @@ export class CheerioProvider implements IWebScrapingProvider {
 
         $(".tec--list__item").find("figure").find("a").each((index: number, element: cheerio.Element) => {
             const firstNewHref = 0;
+
             if (index == firstNewHref) {
                 href = $(element).attr("href");
                 return false;
@@ -38,13 +39,14 @@ export class CheerioProvider implements IWebScrapingProvider {
 
         const nullNewLocation = 1;
 
-        if (requestNumber > requestNumberDefault) throw new Error("Should pass until 10 requestsNumber");
+        if (requestNumber > requestNumberDefault) throw new Error("Should pass until 7 requestsNumber");
 
         $(".tec--article__body-grid").find("p").each((index: number, element: cheerio.Element) => {
             if (index > nullNewLocation && index <= requestNumber + nullNewLocation) {
                 const paragraphLocation = 2;
                 const title = $(element).find("a").text();
                 const paragraph = $(element).text().split(".")[paragraphLocation];
+                if (title == "" || paragraph == "" || !title || !paragraph) return;
 
                 technologyNews.push({ title, paragraph });
             }
