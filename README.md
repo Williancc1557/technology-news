@@ -11,7 +11,7 @@ Deseja coletar algumas das **novidades** relacionadas a tecnologias e informáti
 
 Qual a **url** da **API**? https://technology-news-api.herokuapp.com
 
-Qual site de **news** utilizado para **realizar a busca**? https://www.theenemy.com.br/
+Qual site de **news** utilizado para **realizar a busca**? https://www.tecmundo.com.br/tecnologia
 
 A **rota principal** da API é `/` ou seja, sem nenhum parâmetro a mais!
 
